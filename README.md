@@ -1,24 +1,50 @@
-# Test Notebook Instructions
+# Chest X-ray Classification Project
+
+This repository contains the code and instructions for the final project of the Deep Learning Fundamentals Course (2024). The objective of the project is the classification of chest X-ray images to identify healthy individuals and those with pneumonia. The project also includes anomaly detection and explainability tasks.
+
+## Project Overview
+
+### Objective
+
+Classification of chest X-ray images into:
+1. Healthy
+2. Bacterial Pneumonia
+3. Viral Pneumonia
+
+### Dataset
+
+The Kaggle Chest X-ray Pneumonia Dataset, which contains 5,863 X-ray images divided into two main categories:
+- Healthy
+- With pneumonia (bacterial and viral)
+
+The dataset is split into training, validation, and test sets. The test set is kept as is, while the training and validation sets can be combined and redistributed as needed.
+
+### Tasks
+
+1. **Binary Classification**: Healthy vs. Sick
+2. **Multiclass Classification**: Healthy, Bacterial Pneumonia, Viral Pneumonia
+3. **Anomaly Detection**: Identifying sick individuals with anomaly detection methods using only healthy data.
+4. **Explainability**: Implementing and analyzing an explainability technique to understand model decisions.
 
 ## Prerequisites
 
-Before running the test notebook, please follow these steps to download the necessary files and set up your environment.
+### Step 1: Download Required Files
 
-### Step 1: Download Files
+Download the model weights and KNN's joblib files from [Google Drive](https://drive.google.com/drive/folders/1gPmMeEmym7qc35gnU7JhfCrAPpwHjBZI).
 
-Download the model weights and KNN's joblib file from [this Google Drive link](https://drive.google.com/drive/folders/1gPmMeEmym7qc35gnU7JhfCrAPpwHjBZI).
+### Step 2: Move Files to Your Google Drive
 
-### Step 2: Move Files to Your Drive
+After downloading, move the files to a convenient location in your Google Drive.
 
-After downloading, move the files to your Google Drive.
+### Step 3: Update Path Variables in the Notebook
 
-### Step 3: Update Path Variables
+Update the path variables in the test notebook to match the location of the downloaded files in your Drive.
 
-Change the path variables in the notebook to match the location of the downloaded files in your Drive.
-
-For example, update the paths as follows:
+Example paths to update:
 
 ```python
+from pathlib import Path
+
 BINARY_MODEL_WEIGHTS_PATH = Path("/content/drive/MyDrive/chest_xray/binary_model_VGG19_finetuned_weights_final.h5")
 MULTICLASS_MODEL_WEIGHTS_PATH = Path("/content/drive/MyDrive/chest_xray/multiclass_model_ResNet101.keras")
 ANOMALY_MODEL_WEIGHTS_PATH = Path("/content/drive/MyDrive/chest_xray/encoder_decoder_weights_final.h5")
