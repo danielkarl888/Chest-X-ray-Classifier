@@ -51,3 +51,23 @@ ANOMALY_MODEL_WEIGHTS_PATH = Path("/content/drive/MyDrive/chest_xray/encoder_dec
 
 BINARY_KNN_PATH = Path("/content/drive/MyDrive/chest_xray/binary_knn_classifier.joblib")
 MULTI_KNN_PATH = Path("/content/drive/MyDrive/chest_xray/multi_knn_classifier.joblib")
+
+
+## Notebooks
+
+### Training Notebook
+
+The training notebook includes:
+- Data preprocessing and augmentation
+- Model architectures for binary and multiclass classification
+- Training procedures with transfer learning
+- Saving the trained models
+
+### Test Notebook
+
+The test notebook allows you to:
+- Load the pre-trained models
+- Test the models on new X-ray images
+- Perform anomaly detection
+- Visualize the embedding vectors using t-SNE
+- Apply explainability techniques to interpret model decisions
