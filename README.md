@@ -1,6 +1,6 @@
 # 🩺 Chest X-ray Classification Project
 
-This repository contains the code and instructions for the final project of the Deep Learning Course at Bar-Ilan University (2024). The objective of the project is the classification of chest X-ray images to identify healthy individuals and those with pneumonia. The project also includes anomaly detection and explainability tasks.
+This repository contains the code and instructions for the final project of the **Deep Learning Course** at Bar-Ilan University (2024). The objective of the project is the classification of chest X-ray images to identify healthy individuals and those with pneumonia. The project also includes anomaly detection and explainability tasks.
 
 The dataset used in this project is from Kaggle and can be found at this [link](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia?resource=download).
 
