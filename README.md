@@ -9,6 +9,7 @@ The dataset used in this project is from Kaggle and can be found at this [link](
 ### 🎯 Objective
 
 Classification of chest X-ray images into:
+
 1. **Healthy**
 2. **Bacterial Pneumonia**
 3. **Viral Pneumonia**
@@ -16,6 +17,7 @@ Classification of chest X-ray images into:
 ### 🗂 Dataset
 
 The **Kaggle Chest X-ray Pneumonia Dataset** contains 5,863 X-ray images divided into two main categories:
+
 - **Healthy**
 - **With pneumonia** (bacterial and viral)
 
@@ -60,14 +62,16 @@ MULTI_KNN_PATH = Path("/content/drive/MyDrive/chest_xray/multi_knn_classifier.jo
 ### 🛠 Training Notebook
 
 The training notebook includes:
+
 - **Data preprocessing and augmentation**
-- **Model architectures** for binary and multiclass classification
-- **Training procedures** with transfer learning
+- **Model architectures** for binary and multiclass classifications via transfer learning
+- **Training procedures**
 - **Saving the trained models**
 
 ### 🔬 Test Notebook
 
 The test notebook allows you to:
+
 - **Load the pre-trained models**
 - **Test the models** on new X-ray images
 - **Perform anomaly detection**
