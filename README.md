@@ -1,26 +1,23 @@
 # Chest X-ray Classification Project
 
-This repository contains the code and instructions for the final project of the Deep Learning Course at Bar-Ilan Univeristy (2024).
-The objective of the project is the classification of chest X-ray images to identify healthy individuals and those with pneumonia.
-The project also includes anomaly detection and explainability tasks.
+This repository contains the code and instructions for the final project of the Deep Learning Course at Bar-Ilan University (2024). The objective of the project is the classification of chest X-ray images to identify healthy individuals and those with pneumonia. The project also includes anomaly detection and explainability tasks.
 
 The dataset used in this project is from Kaggle and can be found at this [link](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia?resource=download).
-
 
 ## Project Overview
 
 ### Objective
 
 Classification of chest X-ray images into:
-1. Healthy
-2. Bacterial Pneumonia
-3. Viral Pneumonia
+1. **Healthy**
+2. **Bacterial Pneumonia**
+3. **Viral Pneumonia**
 
 ### Dataset
 
-The Kaggle Chest X-ray Pneumonia Dataset, which contains 5,863 X-ray images divided into two main categories:
-- Healthy
-- With pneumonia (bacterial and viral)
+The **Kaggle Chest X-ray Pneumonia Dataset** contains 5,863 X-ray images divided into two main categories:
+- **Healthy**
+- **With pneumonia** (bacterial and viral)
 
 The dataset is split into training, validation, and test sets. The test set is kept as is, while the training and validation sets can be combined and redistributed as needed.
 
@@ -56,24 +53,22 @@ ANOMALY_MODEL_WEIGHTS_PATH = Path("/content/drive/MyDrive/chest_xray/encoder_dec
 
 BINARY_KNN_PATH = Path("/content/drive/MyDrive/chest_xray/binary_knn_classifier.joblib")
 MULTI_KNN_PATH = Path("/content/drive/MyDrive/chest_xray/multi_knn_classifier.joblib")
-
 ```
-
 ## Notebooks
 
 ### Training Notebook
 
 The training notebook includes:
-- Data preprocessing and augmentation
-- Model architectures for binary and multiclass classification
-- Training procedures with transfer learning
-- Saving the trained models
+- **Data preprocessing and augmentation**
+- **Model architectures** for binary and multiclass classification
+- **Training procedures** with transfer learning
+- **Saving the trained models**
 
 ### Test Notebook
 
 The test notebook allows you to:
-- Load the pre-trained models
-- Test the models on new X-ray images
-- Perform anomaly detection
-- Visualize the embedding vectors using t-SNE
-- Apply explainability techniques to interpret model decisions
+- **Load the pre-trained models**
+- **Test the models** on new X-ray images
+- **Perform anomaly detection**
+- **Visualize the embedding vectors** using t-SNE
+- **Apply explainability techniques** to interpret model decisions
