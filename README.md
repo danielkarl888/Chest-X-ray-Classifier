@@ -1,19 +1,19 @@
-# Chest X-ray Classification Project
+# 🩺 Chest X-ray Classification Project
 
 This repository contains the code and instructions for the final project of the Deep Learning Course at Bar-Ilan University (2024). The objective of the project is the classification of chest X-ray images to identify healthy individuals and those with pneumonia. The project also includes anomaly detection and explainability tasks.
 
 The dataset used in this project is from Kaggle and can be found at this [link](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia?resource=download).
 
-## Project Overview
+## 📋 Project Overview
 
-### Objective
+### 🎯 Objective
 
 Classification of chest X-ray images into:
 1. **Healthy**
 2. **Bacterial Pneumonia**
 3. **Viral Pneumonia**
 
-### Dataset
+### 🗂 Dataset
 
 The **Kaggle Chest X-ray Pneumonia Dataset** contains 5,863 X-ray images divided into two main categories:
 - **Healthy**
@@ -21,24 +21,24 @@ The **Kaggle Chest X-ray Pneumonia Dataset** contains 5,863 X-ray images divided
 
 The dataset is split into training, validation, and test sets. The test set is kept as is, while the training and validation sets can be combined and redistributed as needed.
 
-### Tasks
+### 📊 Tasks
 
 1. **Binary Classification**: Healthy vs. Sick
 2. **Multiclass Classification**: Healthy, Bacterial Pneumonia, Viral Pneumonia
 3. **Anomaly Detection**: Identifying sick individuals with anomaly detection methods using only healthy data.
 4. **Explainability**: Implementing and analyzing an explainability technique to understand model decisions.
 
-## Prerequisites for Running the Test Notebook
+## ⚙️ Prerequisites for Running the Test Notebook
 
-### Step 1: Download Required Files
+### Step 1: 📥 Download Required Files
 
 After downloading the test notebook, download the model weights and KNN's joblib files from [Google Drive](https://drive.google.com/drive/folders/1gPmMeEmym7qc35gnU7JhfCrAPpwHjBZI).
 
-### Step 2: Move Files to Your Google Drive
+### Step 2: 📂 Move Files to Your Google Drive
 
 After downloading, move the files to a convenient location in your Google Drive.
 
-### Step 3: Update Path Variables in the Notebook
+### Step 3: ✏️ Update Path Variables in the Notebook
 
 Update the path variables in the test notebook to match the location of the downloaded files in your Drive.
 
@@ -54,9 +54,10 @@ ANOMALY_MODEL_WEIGHTS_PATH = Path("/content/drive/MyDrive/chest_xray/encoder_dec
 BINARY_KNN_PATH = Path("/content/drive/MyDrive/chest_xray/binary_knn_classifier.joblib")
 MULTI_KNN_PATH = Path("/content/drive/MyDrive/chest_xray/multi_knn_classifier.joblib")
 ```
-## Notebooks
 
-### Training Notebook
+## 📔 Notebooks
+
+### 🛠 Training Notebook
 
 The training notebook includes:
 - **Data preprocessing and augmentation**
@@ -64,7 +65,7 @@ The training notebook includes:
 - **Training procedures** with transfer learning
 - **Saving the trained models**
 
-### Test Notebook
+### 🔬 Test Notebook
 
 The test notebook allows you to:
 - **Load the pre-trained models**
