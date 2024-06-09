@@ -28,11 +28,11 @@ The dataset is split into training, validation, and test sets. The test set is k
 3. **Anomaly Detection**: Identifying sick individuals with anomaly detection methods using only healthy data.
 4. **Explainability**: Implementing and analyzing an explainability technique to understand model decisions.
 
-## Prerequisites
+## Prerequisites for Running the Test Notebook
 
 ### Step 1: Download Required Files
 
-Download the model weights and KNN's joblib files from [Google Drive](https://drive.google.com/drive/folders/1gPmMeEmym7qc35gnU7JhfCrAPpwHjBZI).
+After downloading the test notebook, download the model weights and KNN's joblib files from [Google Drive](https://drive.google.com/drive/folders/1gPmMeEmym7qc35gnU7JhfCrAPpwHjBZI).
 
 ### Step 2: Move Files to Your Google Drive
 
