@@ -1,6 +1,8 @@
 # Chest X-ray Classification Project
 
-This repository contains the code and instructions for the final project of the Deep Learning Fundamentals Course (2024). The objective of the project is the classification of chest X-ray images to identify healthy individuals and those with pneumonia. The project also includes anomaly detection and explainability tasks.
+This repository contains the code and instructions for the final project of the Deep Learning Course at Bar-Ilan Univeristy (2024).
+The objective of the project is the classification of chest X-ray images to identify healthy individuals and those with pneumonia.
+The project also includes anomaly detection and explainability tasks.
 
 ## Project Overview
 
