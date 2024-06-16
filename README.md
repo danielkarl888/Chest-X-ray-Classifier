@@ -13,6 +13,7 @@ Classification of chest X-ray images into:
 1. **Healthy**
 2. **Bacterial Pneumonia**
 3. **Viral Pneumonia**
+   
 ![jZqpV51](https://github.com/danielkarl888/Chest-X-ray-Classifier/assets/74876857/22ec51bf-8ec8-46bc-94b9-51aae82c2d24)
 
 ### 🗂 Dataset
